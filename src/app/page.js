@@ -66,7 +66,7 @@ export default function Home() {
                   <hr/>
                   <div>
                       <h2>Contact + Blog</h2>
-                      <div className={styles.description}>
+                      <div >
                           <div>
                               <h3>Contact</h3>
                               <ul>
@@ -91,7 +91,7 @@ export default function Home() {
                   </div>
               </div>
           </div>
-          <footer><p>Roman 2024</p></footer>
+          <footer><p className={styles.description}>© Roman 2024</p></footer>
       </main>
   );
 }
